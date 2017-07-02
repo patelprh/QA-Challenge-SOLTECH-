@@ -11,7 +11,7 @@ public class Soltech {
 		driver.findElement(By.name("keywords")).sendKeys("qa");
 		driver.findElement(By.name("search")).click();
 		driver.findElement(By.name("qualityassuranceautomationengineer")).click();
-		driver.findElement(By.name("id")).verify
+		driver.findElement(By.id("2017-1958")).isDisplayed();
 		
     
 	}
