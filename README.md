@@ -6,6 +6,13 @@ public class Soltech {
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://soltech.net/");
+		driver.findElement(By.name("careers")).click();
+		driver.findElement(By.name("openpositions")).click();
+		driver.findElement(By.name("keywords")).sendKeys("qa");
+		driver.findElement(By.name("search")).click();
+		driver.findElement(By.name("qualityassuranceautomationengineer")).click();
+		driver.findElement(By.name("id")).verify
+		
     
 	}
 }
